@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: url(/ras/travel.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.brand{
+    color:black;
+    font-size: 25px;
+}
+.brand i{
+    transform: rotate(-50deg);
+}
+nav .menu{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu ul li{
+    cursor: pointer;
+    color: black;
+}
+.menu li:hover{
+    background-color: rgb(120, 240, 0);
+    color: black;
+}
+.menu a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: rgb(240, 240, 0);
+    border-radius: 20px;
+}
+.menu a:hover{
+    background-color: white;
+    color: rgb(219, 36, 3);
+}
+.text-section{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 180px;
+
+}
+.inside-text{
+    background-color: rgba(234, 236, 236, 0.363);
+    padding: 30px 50px;
+    border-radius: 20px;
+    border: rgb(100, 102, 102);
+}
+.text-section p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+     
+}
+ .text-section h1{
+     font-size: 50px;
+
+ }
+ .text-section a{
+     text-decoration: none;
+     padding: 15px 30px;
+     background-color: rgb(168, 59, 168);
+     color: white;
+     margin-bottom: -100px;
+     border-radius: 10px;
+ }
+ .text-section a:hover{
+     background-color: rgb(29, 192, 8);
+     color: rgb(231, 231, 231);
+ }
